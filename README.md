@@ -46,6 +46,57 @@ llama3.1:8b :
 You: Can you help me with programming?
 Bot: I'd be happy to help with your programming-related questions or problems. What type of programming are you working on (e.g., web development, mobile app development, machine learning, etc.) and what specific issue or task do you need assistance with?
 
+## Installation Guide
+
+Follow these steps to set up and run the project on your local machine:
+
+Prerequisites:
+- Python 3.8 or later installed on your system.
+- A Git client (optional, for cloning the repository).
+
+Steps:
+
+1. Clone the Repository
+Clone the project repository to your local machine:
+
+git clone https://github.com/your-repository-url.git
+cd your-repository-folder
+
+2. Create a Virtual Environment
+Create and activate a Python virtual environment to isolate dependencies:
+
+- For Linux/Mac:
+  python3 -m venv venv
+  source venv/bin/activate
+
+- For Windows:
+  python -m venv venv
+  venv\Scripts\activate
+
+3. Install Dependencies
+Use pip to install the required Python packages:
+
+pip install -r requirements.txt
+
+4. Set Environment Variables
+Create a .env file in the root directory.
+Add your OpenAI API key to the .env file:
+
+OPENAI_API_KEY=your-openai-api-key
+
+5. Run the Application
+Start the Streamlit application:
+
+streamlit run src/app.py
+
+Access the Application:
+Open your browser and go to the URL provided by Streamlit, usually http://localhost:8501.
+
+Notes:
+- Replace your-openai-api-key with your actual OpenAI API key.
+- Ensure you have a stable internet connection for API calls.
+
+
 
 Clone the repository:
 [https://github.com/your-repo/ollama-chatbot.git](https://github.com/TLAN145/chatbotv2.git)
