@@ -98,5 +98,5 @@ Notes:
 
 
 
-Clone the repository:
+## Clone the repository:
 [https://github.com/your-repo/ollama-chatbot.git](https://github.com/TLAN145/chatbotv2.git)
